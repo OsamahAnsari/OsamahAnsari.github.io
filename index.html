@@ -1,7 +1,170 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Osamah Ansari's Personal Website">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link href="https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" 
+        rel="stylesheet">
+        <title>Osamah Ansari</title>
+        
+    </head>
+    <body>
+        <header class="home" id="home">
+            <nav id="nav-bar">
+                <div class= "navigation js-navigation">
+                        <a class= "js-scroll-to-home" href="#">Home</a>
+                        <a class= "js-scroll-to-about" href="#">About</a>         
+                        <a class= "js-scroll-to-skills" href="#">Skills</a>
+                        <a class= "js-scroll-to-projects" href="#">Projects</a>
+                        <a class= "js-scroll-to-resume" href="#">Resume</a>
+                        <a class= "js-scroll-to-contact" href="#">Contact</a>
+                </div>
+                <a class="menu-icon js-menu-icon"><i class="icon ion-md-menu"></i></a>
+            </nav>
+            <div class="text-box">
+                <h1><strong>Osamah Ansari</strong>
+                    <h2>University of Michigan '20&mdash; B.S Comp Sci</h2>
+                </h1>
+            </div>
+        </header>
+        
+        <section class="about" id="about">
+            <div class="profile-pic">
+                <img class="pic-style" src="resources/img/cropped.jpg" alt="Osamah Ansari">
+            </div>
+
+            <div class="about-content">
+                <h2>Hi!</h2>
+                <p> My name is Osamah Ansari. I'm a first-generation college student studying Computer Science at The University of Michigan - Ann Arbor. I am from Livonia, MI, a city that is about 25 minutes north-west of Detroit, MI. I'm interested in software, web, and video game development. In my free time, I love learning new things, spending time with family and friends, playing video games, and reading the occasional science or tech article.
+                </p>
+            </div>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="languages">
+                <div class="image-box">
+                <i class="icon ion-ios-code"></i>
+                </div>
+                <ul>
+                    <li>C/C++</li>                    
+					<li>Python</li>
+					<li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="tools">
+                <div class="image-box">
+                <i class="icon ion-ios-hammer"></i>
+                </div>
+                <ul>
+                    <li>Git</li>
+                    <li>Windows</li>
+                    <li>Linux</li>
+					<li>Microsoft Office</li>
+					<li>Microsoft Visual Studio</li>
+                </ul>
+            </div>
+            <div class="speaking-langs">
+                <div class="image-box">
+                <i class="icon ion-ios-people"></i>
+                </div>
+                <ul>
+                    <li>English</li>
+                    <li>Urdu</li>
+                    <li>Spanish</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-x">
+                <h3 style="background-color: #27ae60">Personal Website</h3>
+                <div class="coding-langs">
+                    <i style="color: #27ae60" class="icon ion-ios-code-working"></i>
+                    <h4>HTML , CSS , CSS Grid , jQuery</h4>
+                </div>
+                <img src="resources/img/Screenshot%20(35).jpg">
+                <p>I created this website to share my portfolio, show my self-taught web development skills, and try out web development for the first time!</p>
+            </div>
+            <div class="project-x">
+                <h3 style="background-color: #c0392b">Breadman</h3>
+                <div class="coding-langs">
+                    <i style="color: #c0392b" class="icon ion-ios-code-working"></i>
+                    <h4>C/C++</h4>
+                </div>
+                <img src="resources/img/Screenshot%20(39).jpg">
+                <p>Three friends and I created an Arduino based platform survival game for an intro comp sci course. 
+				You played as a \"Bread Man\" in a post-apocalyptic world collecting bread for food while trying to avoid the incoming meteors and falling into the pits they create.
+				Some features included the a point system with a leaderboard, full animations, and a game controller created with buttons, a potentiometer, and a joystick. </p>
+            </div>
+            <div class="project-x">
+                <h3 style="background-color: #d35400">Pokemon</h3>
+                <div class="coding-langs">
+                    <i style="color: #d35400" class="icon ion-ios-code-working"></i>
+                    <h4>C++</h4>
+                </div>
+                <img src="resources/img/Screenshot%20(41).png">
+                <p> Pokemon Info </p>
+            </div>
+            <div class="project-x">
+                <h3 style="background-color: #8e44ad">Euchre</h3>
+                <div class="coding-langs">
+                    <i style="color: #8e44ad" class="icon ion-ios-code-working"></i>
+                    <h4>C++</h4>
+                </div>
+                <img src="resources/img/Screenshot%20(40).png">
+                <p>Created a simulator in a class for the game of Euchre using concepts such as classes, vectors, and polymorphism.
+                </p>
+            </div>
+        </section>
+        
+        <section class="resume">
+            
+                <h2>Check out my <a href="resources/data/Ansari_Osamah_Resume.pdf" target="_blank">resume</a> for more details!
+                    <i class="icon ion-ios-download"></i>
+                </h2>
+  
+        </section>
+        
+        <section class="contact">
+            <h2>
+                Let's Chat
+            </h2>
+            <div class="social-links">
+                <a href ="mailto:oaansari@umich.edu" target="_blank">
+                    <i class="icon ion-ios-mail"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/osamah-ansari/" target="_blank">
+                    <i class="icon ion-logo-linkedin"></i>
+                </a>
+            </div>
+        </section>
+        
+        <footer>
+  
+        
+        </footer>
+        
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+    </body>
+
 </html>
