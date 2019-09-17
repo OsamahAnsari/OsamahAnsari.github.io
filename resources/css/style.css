@@ -285,7 +285,8 @@ p a:hover {
     display: grid;
     grid-template-areas: "title title"
                          "project-1 project-2" 
-                        "project-3 project-4";
+                        "project-3 project-4"
+						"project-5 project-6";
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 20px;
@@ -348,7 +349,7 @@ p a:hover {
 .projects p {
     padding: 0px 10px 10px 10px;
     margin: 0px;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
     font-size: 120%;
 }
