@@ -58,7 +58,7 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/OG.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/selfie_northern_peninsula.png);
     display: grid;
     font-family: 'Montserrat';
     height: 100vh;
