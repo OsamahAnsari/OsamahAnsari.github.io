@@ -1,0 +1,42 @@
+/* Defines the style properties for the h1 header tag */
+h1
+{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Defines the style properties for the body tag */
+body
+{
+    font-size: 1.5em;
+    text-align: left;
+    color: #330000;
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Defines the style properties for the first paragraph id */
+#firstparagraph
+{
+    font-size: 1.5em;
+    color: #000000;
+    background-color: #FF8F8F;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/* Defines the style properties for the important box class */
+.importantbox
+{
+    font-size: 18px;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    background-color: #FF8F8F;
+    float: left;
+    color: #000000;
+    border-style: solid;
+    border-width: 5px;
+}

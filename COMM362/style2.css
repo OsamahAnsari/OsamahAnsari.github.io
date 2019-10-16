@@ -1,0 +1,188 @@
+/* Defines the style properties for the h1 header tag */
+h1
+{
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Defines the style properties for the body tag */
+body 
+{
+    background-image: url("background-texture.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr
+{
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+
+/* Defines the style properties for the page-header class */
+.page-header
+{
+    width: 96.55%;
+    margin: 1%;
+    padding: 0.5%;
+    float: middle;
+    color: black;
+    background-color: #18181A;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    line-height: 40%;
+}
+
+/* Defines the style properties for the episode-info class */
+.episode-info
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 96.55%;
+    margin: 1%;
+    padding: 0.5%;
+    float: middle;
+    color: white;
+    background-color: #18181A;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    line-height: 80%;
+}
+
+/* Defines the style properties for the transcript class */
+.transcript
+{
+    font-size: 1em;
+    top: 4%;
+    width: 48%;
+    margin: 1%;
+    padding: 0.5%;
+    color: white;
+    background-color: #18181A;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    float: left;
+    line-height: 110%;
+}
+
+/* Defines the style properties for the transcript-titles class */
+.transcript-titles
+{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* Defines the style properties for the transcript-scene class */
+.transcript-scene
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Defines the style properties for the transcript-speaker class */
+.transcript-speaker
+{
+    font-weight: bold;
+}
+
+/* Defines the style properties for the transcript-action class */
+.transcript-action
+{
+    display: inline-block;
+    font-style: italic;
+}
+
+/* Defines the style properties for the video-wrapper class */
+.video-wrapper
+{
+	position: relative;
+	padding-bottom: 27.4%; /* 16:9 */
+	padding-top: 0.5%;
+	height: 0;
+}
+
+/* Defines the style properties for the video-wrapper iframe attribute */
+.video-wrapper iframe
+{
+	position: absolute;
+	top: 3.6%;
+	left: 52%;
+	width: 46.55%;
+	height: 94%;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+/* Defines the style properties for the image-wrapper class */
+.image-wrapper
+{
+    position: relative;
+	padding-bottom: 27.4%; /* 16:9 */
+	padding-top: 0.5%;
+	height: 0;
+}
+
+/* Defines the style properties for the image-wrapper img attribute */
+.image-wrapper img
+{
+    position: absolute;
+	top: 5.4%;
+	left: 52%;
+	width: 46.55%;
+	height: 94%;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+/* Defines the style properties for the more class */
+.more
+{
+    font-size: 1em;
+    top: 4%;
+    width: 48%;
+    margin: 1%;
+    padding: 0.5%;
+    color: white;
+    background-color: #18181A;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    float: left;
+    line-height: 110%;
+}
+
+/* Defines the style properties for the survey-title id */
+#survey-title
+{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* Defines the style properties for the submit id */
+#submit
+{
+    background-color: #18181A;
+    border: 2.5px solid white;
+    color: white;
+    padding: 0.5% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* Defines the style properties for the home-page-link id */
+#home-page-link
+{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+}
